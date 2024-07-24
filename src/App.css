@@ -1,0 +1,46 @@
+
+/* hero section for the app */
+
+.text-div h1{
+  font-size: 2.5rem;
+}
+
+.filter{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* item display style */
+.tex{
+ text-align: left;
+}
+.filt{
+  margin: 0 auto;
+}
+/* desktop */
+@media (max-width: 1280px) and (min-width: 800px){
+  .listItem{
+    width: 80rem;
+    gap: 2rem;
+  }
+  
+  .container{
+    gap: 39rem;
+  }
+}
+/* tablet */
+
+/* phone */
+@media (max-width: 760px) and (min-width: 375px){
+  .listItem{
+    width: 52%;
+    gap: 2rem;
+  }
+  /* .btn{
+    margin-left: 8rem;
+  } */
+  /* .container{
+    gap: 8rem;
+  } */
+}
+
